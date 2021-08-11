@@ -1,10 +1,82 @@
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
-  <title>Cooking App</title>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.6.0.js"></script>
   <script src="js/scripts.js"></script>
+  <title>Cooking App</title>
 </head>
 <body>
-  <h1>Cooking App</h1>
+  <div class="container">
+    <h1>Cooking App</h1>
+    <form id="CtoF">
+      <div class="form-group">
+        <label for="C">Celsius:</label>
+        <input id="C" class="form-control" type="text">
+      </div>
+      <button type="submit" class="btn">Convert to Fahrenheit:</button>
+    </form>
+    <div class="CtoF-output">
+      
+    </div>
+
+    <form id="FtoC">
+      <div class="form-group">
+        <label for="F">Fahrenheit:</label>
+        <input id="F" class="form-control" type="text">
+      </div>
+      <button type="submit" class="btn">Convert to Celsius:</button>
+    </form>
+    <div class="FtoC-output">
+      
+    </div>
+
+    <form id="GtoL">
+      <div class="form-group">
+        <label for="G">Gallons:</label>
+        <input id="G" class="form-control" type="text">
+      </div>
+      <button type="submit" class="btn">Convert to Liters:</button>
+    </form>
+    <div class="GtoL-output">
+      
+    </div>
+
+    <form id="LtoG">
+      <div class="form-group">
+        <label for="L">Liters:</label>
+        <input id="L" class="form-control" type="text">
+      </div>
+      <button type="submit" class="btn">Convert to gallons:</button>
+    </form>
+    <div class="LtoG-output">
+      
+    </div>
+
+    <form id="GrtoO">
+      <div class="form-group">
+        <label for="Gr">Grams:</label>
+        <input id="Gr" class="form-control" type="text">
+      </div>
+      <button type="submit" class="btn">Convert to ounces:</button>
+    </form>
+    <div class="GrtoO-output">
+      
+    </div>
+
+    <form id="OtoGr">
+      <div class="form-group">
+        <label for="O">Ounces:</label>
+        <input id="O" class="form-control" type="text">
+      </div>
+      <button type="submit" class="btn">Convert to grams:</button>
+    </form>
+    <div class="OtoGr-output">
+      
+    </div>
+
+    
+  </div>
 </body>
 </html>
